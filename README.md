@@ -1,0 +1,9 @@
+- Sheet / Detail view / Modally
+- Navigation View & Navigation Title
+- Binding
+- StateObject
+- ObservableObject
+- Published
+- Pubsub approach
+- GridView (Lazy Grid)
+- MVVM Basics
