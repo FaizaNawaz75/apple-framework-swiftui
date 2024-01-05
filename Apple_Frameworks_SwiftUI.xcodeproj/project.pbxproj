@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		203023332B47273600E284E4 /* Apple_Frameworks_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203023322B47273600E284E4 /* Apple_Frameworks_SwiftUIApp.swift */; };
-		203023352B47273600E284E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203023342B47273600E284E4 /* ContentView.swift */; };
 		203023372B47273800E284E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203023362B47273800E284E4 /* Assets.xcassets */; };
 		2030233A2B47273800E284E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203023392B47273800E284E4 /* Preview Assets.xcassets */; };
+		203023412B47275500E284E4 /* FrameworksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203023402B47275500E284E4 /* FrameworksView.swift */; };
+		203023432B4727D700E284E4 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203023422B4727D700E284E4 /* Framework.swift */; };
+		203023452B4740F600E284E4 /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203023442B4740F600E284E4 /* FrameworkTitleView.swift */; };
+		203023472B47415D00E284E4 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203023462B47415D00E284E4 /* FrameworkDetailView.swift */; };
+		203023492B48013100E284E4 /* FrameworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203023482B48013100E284E4 /* FrameworkViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2030232F2B47273600E284E4 /* Apple_Frameworks_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apple_Frameworks_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		203023322B47273600E284E4 /* Apple_Frameworks_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_Frameworks_SwiftUIApp.swift; sourceTree = "<group>"; };
-		203023342B47273600E284E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		203023362B47273800E284E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		203023392B47273800E284E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		203023402B47275500E284E4 /* FrameworksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksView.swift; sourceTree = "<group>"; };
+		203023422B4727D700E284E4 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		203023442B4740F600E284E4 /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
+		203023462B47415D00E284E4 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		203023482B48013100E284E4 /* FrameworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				203023322B47273600E284E4 /* Apple_Frameworks_SwiftUIApp.swift */,
-				203023342B47273600E284E4 /* ContentView.swift */,
+				203023422B4727D700E284E4 /* Framework.swift */,
+				203023402B47275500E284E4 /* FrameworksView.swift */,
+				203023482B48013100E284E4 /* FrameworkViewModel.swift */,
+				203023462B47415D00E284E4 /* FrameworkDetailView.swift */,
+				203023442B4740F600E284E4 /* FrameworkTitleView.swift */,
 				203023362B47273800E284E4 /* Assets.xcassets */,
 				203023382B47273800E284E4 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203023352B47273600E284E4 /* ContentView.swift in Sources */,
 				203023332B47273600E284E4 /* Apple_Frameworks_SwiftUIApp.swift in Sources */,
+				203023472B47415D00E284E4 /* FrameworkDetailView.swift in Sources */,
+				203023432B4727D700E284E4 /* Framework.swift in Sources */,
+				203023492B48013100E284E4 /* FrameworkViewModel.swift in Sources */,
+				203023452B4740F600E284E4 /* FrameworkTitleView.swift in Sources */,
+				203023412B47275500E284E4 /* FrameworksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
